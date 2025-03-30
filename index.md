@@ -6,53 +6,60 @@ title: Simple Slideshow
 # Simple Slideshow
 
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta name="found-at" content="http://www.computedstyle.com/2010/12/hiring-front-end-engineers.html">
-    <meta name="description" content="A div with an id of 'slideshow' contains
-five images, the first of which is shown and the others are hidden using a
-display style of none. Using Javascript, create a simple slideshow that cycles
-through the images, displaying each image for three seconds at a time, looping
-back to the first image when the end is reached. You cannot use jQuery or any
-other library.">
-
-<script type="text/javascript" charset="utf-8">
-
-    function nextSlide(slideNo, dir) {
-        if (!dir) { dir = "up"; }
-        
-        console.log("Current slide: " + slideNo)
-        
-        currentSlide = document.getElementById("slide-" + slideNo);
-        currentSlide.style.display = "inline";
-        
-        function next() { 
-            currentSlide.style.display = "none";
-            if (slideNo == 4) { direction = "down"}
-            if (slideNo == 0) { direction = "up"}
-            dir == "up" ? nextSlide(slideNo + 1, "up") : nextSlide(slideNo - 1, "down");
-        }
-        setTimeout(next, 2000); 
+  <meta charset="UTF-8">
+  <title>Simple Slideshow</title>
+  <style>
+    /* Style the slideshow container */
+    #slideshow {
+      max-width: 600px;
+      margin: 50px auto;
+      position: relative;
+      overflow: hidden;
+      border: 2px solid #333;
     }
-
-    function slideShow(id) {
-        var container = document.getElementById(id);
-        var imageCount = container.childElementCount;
-        for (i = 0; i < imageCount; i++) {
-            container.children[i].id = "slide-" + i;
-        }
-        container.children[imageCount - 1].setAttribute("class", "last-slide");
-        nextSlide(0);
+    /* Style each slide image */
+    #slideshow img {
+      width: 100%;
+      display: none; /* Hide all images by default */
+      position: absolute;
+      top: 0;
+      left: 0;
     }
+    /* Only display the active slide */
+    #slideshow img.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+<div id="slideshow">
+  <img src="https://via.placeholder.com/600x400?text=Slide+1" alt="Slide 1" class="active">
+  <img src="https://via.placeholder.com/600x400?text=Slide+2" alt="Slide 2">
+  <img src="https://via.placeholder.com/600x400?text=Slide+3" alt="Slide 3">
+  <img src="https://via.placeholder.com/600x400?text=Slide+4" alt="Slide 4">
+  <img src="https://via.placeholder.com/600x400?text=Slide+5" alt="Slide 5">
+</div>
+
+<script>
+  // Wait for the DOM to load
+  document.addEventListener('DOMContentLoaded', function() {
+    var slides = document.querySelectorAll('#slideshow img');
+    var currentSlide = 0;
+    
+    // Function to move to the next slide
+    function nextSlide() {
+      slides[currentSlide].classList.remove('active');
+      currentSlide = (currentSlide + 1) % slides.length;
+      slides[currentSlide].classList.add('active');
+    }
+    
+    // Change slide every 3 seconds
+    setInterval(nextSlide, 3000);
+  });
 </script>
 
-</head>
-<body onload='slideShow("slideshow");'>
-    <div id="slideshow">
-        <img src="1.jpg" alt="" />
-        <img src="2.jpg" style="display:none" alt="" />
-        <img src="3.jpg" style="display:none" alt="" />
-        <img src="4.jpg" style="display:none" alt="" />
-        <img src="5.jpg" style="display:none" alt="" />
-    </div>
 </body>
 </html>
