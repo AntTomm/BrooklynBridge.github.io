@@ -10,18 +10,31 @@ title: Image Slideshow
   <!-- The actual Swiper container -->
   <div class="swiper-container" style="width: 100%; height: 300px; position: relative;">
     <div class="swiper-wrapper">
-      <div class="swiper-slide"></div>
-         <img src="{{ '/welcomeSign.jpeg' | relative_url }}" alt="Welcome Sign">
+      <!-- Slide 1 with an image -->
+      <div class="swiper-slide">
+        <img
+          src="{{ '/welcomeSign.jpeg' | relative_url }}"
+          alt="Welcome Sign"
+          style="max-width: 100%; height: auto; display: block;"
+        >
+      </div>
+      <!-- Slide 2 -->
+      <div class="swiper-slide">
+        Slide 2 content here
+      </div>
+      <!-- Slide 3 -->
+      <div class="swiper-slide">
+        Slide 3 content here
+      </div>
     </div>
-      <div class="swiper-slide"></div>
-      <div class="swiper-slide"></div>
-    </div>
-    
+
+    <!-- Swiper controls -->
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
     <div class="swiper-pagination"></div>
   </div>
 </div>
+
 
 
 <!-- Swiper JS & CSS from CDN -->
