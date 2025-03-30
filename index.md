@@ -3,7 +3,7 @@ layout: default
 title: Image Slideshow
 ---
 
-# My Slideshow Page
+# Image Slideshow
 
 <!-- A wrapper to control overall size/position -->
 <div style="width: 600px; margin: 0 auto; border: 1px solid #ccc;">
