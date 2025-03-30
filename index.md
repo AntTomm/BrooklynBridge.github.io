@@ -11,6 +11,8 @@ title: My Slideshow Page
   <div class="swiper-container" style="width: 100%; height: 300px; position: relative;">
     <div class="swiper-wrapper">
       <div class="swiper-slide"></div>
+        <img src="![welcomeSign](https://github.com/user-attachments/assets/2a591244-b6ab-4108-bf01-a39bf549663e)" />
+    </div>
       <div class="swiper-slide"></div>
       <div class="swiper-slide"></div>
     </div>
