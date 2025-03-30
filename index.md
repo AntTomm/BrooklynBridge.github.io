@@ -5,28 +5,54 @@ title: Simple Slideshow
 
 # Simple Slideshow
 
-<!-- Slideshow container with a fixed width to center the slideshow -->
-<div id="slideshow" style="max-width: 300px; margin: 0 auto; border: 1px solid #ccc;">
-  <img src="http://placehold.it/300x200&text=foo1.jpg" alt="foo1">
-  <img src="http://placehold.it/300x200&text=foo2.jpg" alt="foo2" style="display: none">
-  <img src="http://placehold.it/300x200&text=foo3.jpg" alt="foo3" style="display: none">
-  <img src="http://placehold.it/300x200&text=foo4.jpg" alt="foo4" style="display: none">
-  <img src="http://placehold.it/300x200&text=foo5.jpg" alt="foo5" style="display: none">
-</div>
+<!DOCTYPE html>
+<head>
+    <meta name="found-at" content="http://www.computedstyle.com/2010/12/hiring-front-end-engineers.html">
+    <meta name="description" content="A div with an id of 'slideshow' contains
+five images, the first of which is shown and the others are hidden using a
+display style of none. Using Javascript, create a simple slideshow that cycles
+through the images, displaying each image for three seconds at a time, looping
+back to the first image when the end is reached. You cannot use jQuery or any
+other library.">
 
-<script>
-  // Grab the slideshow container and its images
-  var slideshow = document.getElementById('slideshow');
-  var slides = slideshow.getElementsByTagName('img');
-  var idx = 0;
+<script type="text/javascript" charset="utf-8">
 
-  // Function to hide the current slide and show the next one
-  function changeSlide() {
-      slides[idx].style.display = 'none';
-      idx = (idx + 1) % slides.length;
-      slides[idx].style.display = 'block';
-  }
+    function nextSlide(slideNo, dir) {
+        if (!dir) { dir = "up"; }
+        
+        console.log("Current slide: " + slideNo)
+        
+        currentSlide = document.getElementById("slide-" + slideNo);
+        currentSlide.style.display = "inline";
+        
+        function next() { 
+            currentSlide.style.display = "none";
+            if (slideNo == 4) { direction = "down"}
+            if (slideNo == 0) { direction = "up"}
+            dir == "up" ? nextSlide(slideNo + 1, "up") : nextSlide(slideNo - 1, "down");
+        }
+        setTimeout(next, 2000); 
+    }
 
-  // Change slide every 3 seconds
-  setInterval(changeSlide, 3000);
+    function slideShow(id) {
+        var container = document.getElementById(id);
+        var imageCount = container.childElementCount;
+        for (i = 0; i < imageCount; i++) {
+            container.children[i].id = "slide-" + i;
+        }
+        container.children[imageCount - 1].setAttribute("class", "last-slide");
+        nextSlide(0);
+    }
 </script>
+
+</head>
+<body onload='slideShow("slideshow");'>
+    <div id="slideshow">
+        <img src="1.jpg" alt="" />
+        <img src="2.jpg" style="display:none" alt="" />
+        <img src="3.jpg" style="display:none" alt="" />
+        <img src="4.jpg" style="display:none" alt="" />
+        <img src="5.jpg" style="display:none" alt="" />
+    </div>
+</body>
+</html>
