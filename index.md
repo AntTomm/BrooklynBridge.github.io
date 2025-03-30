@@ -1,6 +1,6 @@
 ---
 layout: default
-title: My Slideshow Page
+title: Image Slideshow
 ---
 
 # My Slideshow Page
