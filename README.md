@@ -29,39 +29,40 @@ It's not only a directional marker, but displays its use as a public green space
  In the background, someone is relaxing under the umbrella. This is all provided by the park, as it's a public space. As you can see from the ground, there are
  painted lines showcasing the joggers where they can follow, making it easy for people to come and go as they please. The faint hum of the city traffic contrasts
  with the gentle breeze flowing off the bay, reminding you that you're in a space that merges the urban with the natural. 
- 
-![park2](https://github.com/user-attachments/assets/368830b4-8198-42be-b8f6-436e1ad9f7b8)
+
 # Soon To Come...
+![park2](https://github.com/user-attachments/assets/368830b4-8198-42be-b8f6-436e1ad9f7b8)
  I took this photo to show that Pier 5 is continuing to advance with new playground equipment for those who still want something to do, but don't want to sit around
  or play soccer. Even the younger generations can be active here. It also depicts how much the city cares for such a nice part of Brooklyn, as they are creating
  updated play equipment strictly for the children. They are also adding "shade canopies" to improve sun protection and keep everyone safe. 
- 
- # Watch the World go By
+
+
+# Watch the World go By
 ![sittingArea](https://github.com/user-attachments/assets/a2ff32c5-8824-4975-876f-f0917e8021aa)
  So, yes, one of the delights of Pier 5 is the number of seating options availble to its visitors. You'll notice more formal benches as well as the nicely, coincidentally placed
  boulders and wooden ledges that double as seats. As I walked through the numerous picnic tables, I also came across a family sitting down playing music and enjoying lunch (not pictured for obvious reasons).
  People come here to rest, jog, share a meal, or just to take a moment to enjoy the view. The people sitting here also love watching the world around them, from the Manhattan Skyline to the...
 
- # SOCCER!!
+# SOCCER!!
 ![soccerField](https://github.com/user-attachments/assets/ce678c89-ba96-470a-b400-3bcdbc5946f5)
  The soccer field! Yes, one of the most popular portions of Pier 5 is the humungous soccer field places right next to the bay, and overlooking the Lower Manhattan Skyline.
  I have personally been here a few nights with my friends during sundown, and there are also lights that go on at night so you can continue playing. The sprawling green turf field has
  crisp white boundary lines, and if you can't tell from the scale of this photograph already, there are tons of open soccer fields for multiple gatherings of people to play on. 
 
- # Taking a Break
+# Taking a Break
 ![iceCream](https://github.com/user-attachments/assets/15a0477c-a747-4d14-b71a-c962d8ff565c)
  After soaking in the sun, going on a mile-long jog, or playing soccer with your friends on a hot spring or summer day, it'd be nice to kick back and enjoy a sweet treat.
  Oddfellows Ice Cream Co. is located directly next to the soccer field, a plethora of seated areas with shade, and other benches in the area. At the time I went, it was closed
  (probably due to the weather, I dropped by on Friday the 28th around 3:30 PM). While the prices aren't the prettiest, being a single scoop for $6.51, and topping are $1.50 extra,
  if you have the money to buy it, it makes the experience all the better, espeically combined with the weather around the warmer months. 
 
- # Learning Through Signage
+# Learning Through Signage
 ![signage](https://github.com/user-attachments/assets/15920bac-9262-41cf-b89c-b823e7fbd7e7)
  Not only is this park a place to play, but a place to learn. This signage features one of the park's many interpretive signs. It describes everything from where to go for
  the train stations, local bars and pizza places, St. Ann's Warehouse, which is a local performing arts institution, etc. These signs are prompted all over the area, and
  show just how much the pier has to offer.
 
- # Sustainability & Future Growth
+# Sustainability & Future Growth
 ![pier5](https://github.com/user-attachments/assets/46d83d5e-310a-4a7a-905e-894a9ec06815)
  One of the main reasons Pier 5 has become such a beloved community space is because of the family-friendly atmosphere. Surely if I went on a nicer day, it would be much
  more lively, but its not unusual at all to see strollers next to picnic plankets, or children running freely throughout the fields. The pathways are perfect for bikes, scooters, skateboards,
