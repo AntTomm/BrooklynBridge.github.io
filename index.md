@@ -10,9 +10,9 @@ title: My Slideshow Page
   <!-- The actual Swiper container -->
   <div class="swiper-container" style="width: 100%; height: 300px; position: relative;">
     <div class="swiper-wrapper">
-      <div class="swiper-slide">Slide 1</div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
     </div>
     
     <div class="swiper-button-prev"></div>
