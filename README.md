@@ -1,6 +1,6 @@
 # Brooklyn Bridge, Brooklyn, NYC
 
-<embed![welcomeSign](https://github.com/user-attachments/assets/7ae1107b-a9d2-46d8-ada5-49509504c7cc)
+![welcomeSign](https://github.com/user-attachments/assets/7ae1107b-a9d2-46d8-ada5-49509504c7cc)
 ![trail](https://github.com/user-attachments/assets/4c91162d-a361-4278-84b8-0a4792683c4e)
 ![cityView](https://github.com/user-attachments/assets/c4048598-552c-4336-96f4-2f6be16f20bc)
 ![sittingArea](https://github.com/user-attachments/assets/a2ff32c5-8824-4975-876f-f0917e8021aa)
