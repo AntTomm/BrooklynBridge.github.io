@@ -11,7 +11,7 @@ title: Image Slideshow
   <div class="swiper-container" style="width: 100%; height: 300px; position: relative;">
     <div class="swiper-wrapper">
       <div class="swiper-slide"></div>
-        <img src="![welcomeSign](https://github.com/user-attachments/assets/2a591244-b6ab-4108-bf01-a39bf549663e)" />
+         <img src="{{ '/welcomeSign.jpeg' | relative_url }}" alt="Welcome Sign">
     </div>
       <div class="swiper-slide"></div>
       <div class="swiper-slide"></div>
